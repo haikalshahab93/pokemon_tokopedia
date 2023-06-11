@@ -28,6 +28,18 @@
   color: #61dafb;
 }
 
+.nilai{
+  display: flex;
+  background-color: red;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button{
+  font-size: 40%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

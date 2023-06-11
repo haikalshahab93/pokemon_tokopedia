@@ -1,0 +1,31 @@
+.background{
+    height: 100vh;
+    background: url("../assets/images/background2.jpeg");
+    background-size: cover;
+}
+.intro{
+    height: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;  
+    text-shadow: 2px 2px red;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.trending{
+    height: auto;
+    background: url("../assets/images/card.jpg");
+    background-size: cover;
+}
+
+.movieImage{
+    height: auto;
+    
+}

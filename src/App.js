@@ -1,23 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { useState } from 'react';
+import NavigationBar from './components/NavigationBar';
+import "./style/landingPage.css"
+import { Col, Container, Row } from 'react-bootstrap';
+import Intro from './components/Intro';
+import { Trending } from './components/Trending';
 function App() {
+
+  const [count, setCount] = useState(0);
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // intro section
+    <div>
+      <div className='background'>
+        <h1>PROJECT FILM</h1>
+        <NavigationBar />
+          <Intro/>
+      </div>
+      {/* end intro section */}
+      <div className='trending'>
+          <Trending/>
+      </div>
     </div>
   );
 }
