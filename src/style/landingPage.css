@@ -20,7 +20,7 @@
 }
 
 .trending{
-    height: auto;
+    height: 100vh;
     background: url("../assets/images/card.jpg");
     background-size: cover;
 }
